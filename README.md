@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 Run the app:
 ```
-python main.txt
+python main.py
 ```
 
 ## Setup mac
