@@ -51,7 +51,7 @@ def get_all_units():
         cursor = conn.cursor()
 
         cursor.execute("""
-            SELECT id, name, army, quantity, build_status, painted_status, storage_box, notes
+            SELECT id, name, army, quantity, built_status, painted_status, storage_box, notes
             FROM units
             ORDER BY army, name
         """)
