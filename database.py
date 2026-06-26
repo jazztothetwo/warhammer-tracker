@@ -27,7 +27,7 @@ def create_tables():
 
         conn.commit()
 
-def add_unnit(name, army, quantity, built_status, painted_status, storage_box, notes):
+def add_unit(name, army, quantity, built_status, painted_status, storage_box, notes):
     with get_connection() as conn:
         cursor = conn.cursor()
 
